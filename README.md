@@ -20,14 +20,14 @@ Or install it yourself as:
 
 ### The possible options
    ```
-   *tries*       count of tries (by default 1)
-   *timeout*     timeout (by default 0)
-   *sleep*       waiting for some sleep in seconds after each attempt (by default 0)
-   *on*          what kind of exceptions it is required to catch (by default generic Exception class)
-   *matching*    matching some error text by regular expression (by default any text /.*/)
-   *logger*      custom logger, for instance Log4R (by default STDOUT)
-   *trace*       should we output handled errors? (by default false)
-   *silent*      should we generate exception after finishing? (by default false)
+   [tries]       count of tries (by default 1)
+   [timeout]     timeout (by default 0)
+   [sleep]       waiting for some sleep in seconds after each attempt (by default 0)
+   [on]          what kind of exceptions it is required to catch (by default generic Exception class)
+   [matching]    matching some error text by regular expression (by default any text /.*/)
+   [logger]      custom logger, for instance Log4R (by default STDOUT)
+   [trace]       should we output handled errors? (by default false)
+   [silent]      should we generate exception after finishing? (by default false)
    ```
 
 ### Examples
