@@ -18,7 +18,8 @@ Or install it yourself as:
 
 ## Usage
 
-### The possible +options+ :
+### The possible options
+   ```
    *tries*       count of tries (by default 1)
    *timeout*     timeout (by default 0)
    *sleep*       waiting for some sleep in seconds after each attempt (by default 0)
@@ -27,11 +28,14 @@ Or install it yourself as:
    *logger*      custom logger, for instance Log4R (by default STDOUT)
    *trace*       should we output handled errors? (by default false)
    *silent*      should we generate exception after finishing? (by default false)
+   ```
 
-### Examples:
+### Examples
 
+ ```ruby
  retryable { raise "Some fake error" }
  rp(tries: 10, silent: true) { raise "Some fake error" }
+ ```
 
 ## Contributing
 
